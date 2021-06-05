@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(45deg, rgb(223, 16, 16), rgb(0, 36, 243));
+    height: 100vh;
+}
+    
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit, italic;
+}
+
+p{
+    color: rgb(30, 34, 37);
+    
+}
+
+.botoes:hover {
+    background-image: linear-gradient(45deg, rgb(223, 16, 16), rgb(0, 36, 243));
+    
+}
+
+.botoes {
+    border-radius: 15px;     
+}
