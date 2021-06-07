@@ -52,6 +52,15 @@
         h1{
             text-align: center;
         }
+
+        .botao-voltar{
+            position: absolute;
+            top: 92%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+
     </style>
 </head>
 <body>
@@ -90,8 +99,13 @@
                 <td><button class="botoes" onclick="insert('.')">.</button></td>
             </tr>
         </table>
+
         </div>
+
+        <div class="botao-voltar"><a href="../index.html"><abbr title="Voltar para a página inicial"><img src="Imagens/voltar.png" alt="botão voltar"></abbr></a></div>
+
     </div>
+
     <script>
         function insert(num)
         {
